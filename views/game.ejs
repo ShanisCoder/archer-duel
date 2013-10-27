@@ -1,5 +1,5 @@
 <% include inc/head %>
-<body class="gameBody">
+<body class="gameBody" onmousedown="BodyMouseDown()"; onmouseup="BodyMouseUp()">
 <script>
     window.currentUserId = '<%= userid %>';
     window.currentPlayerPosition = parseInt('<%= position %>');
